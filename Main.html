@@ -20,7 +20,7 @@
 						<li class= "active"><a href= ""> Home</a></li>
 						<li><a href= "About.html"> About Us</a></li>
 						<li><a href= "Contact.html"> Contact Us</a></li>
-						<li><a href= " "> Support</a></li>
+						<li><a onclick="document.getElementById('id02').style.display='block'" >Login</a></li>
 					</ul>
 				</div>
 			</header>
@@ -104,14 +104,71 @@
       <button type="submit">Sign Up</button>
       <label>
 
+      </label>
+
+    </div>
+
+    <div id="container" style="background-color:#f1f1f1">
+
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel
+
+      </button>
+
+    </div>
+
+  </form>
+
+</div>
+
+<script>
+
+var modal = document.getElementById('id01');
+
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+		
+	</div>
+
+</div>
+
+<div class ="form">
+
+<div id="id02" class="modal">
+
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+  <form class="modal-content animate">
+
+    <div class="imgcontainer">
+
+      <img src="Avatar.jpg" alt="Avatar" class="avatar">
+
+    </div>
+
+    <div class="container">
+
+      <label for="uname"><b>Username:</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password:</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Log in</button>
+      <label>
+
       <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
 
     </div>
 
-    <div class="container" style="background-color:#f1f1f1">
+    <div id="container" style="background-color:#f1f1f1">
 
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel
 
       </button>
 
@@ -125,7 +182,7 @@
 
 <script>
 
-var modal = document.getElementById('id01');
+var modal = document.getElementById('id02');
 
 
 window.onclick = function(event) {
