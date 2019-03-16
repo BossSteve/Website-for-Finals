@@ -25,13 +25,13 @@ body{
 	text-decoration: none;
 	padding: 5px 5px;
 	font-family: "Robotto", sans-serif;
-	font-size: 10px;
+	font-size: 12px;
 	margin-right: 10px;
 	font-weight: bold;
 	border: 1px solid transparent;
-	-webkit-transition: background-color 1s; /* Safari */
+	-webkit-transition: background-color 1s; 
     transition: background-color 1s;
-    -webkit-transition: border 1s; /* Safari */
+    -webkit-transition: border 1s; 
     transition: border 1s;
 }
 #navbar li.active a{
@@ -41,9 +41,9 @@ body{
 	border:1px solid white;
 	background-color: white;
 	color: brown;
-	-webkit-transition: background-color 1s; /* Safari */
+	-webkit-transition: background-color 1s; 
     transition: background-color 1s;
-    -webkit-transition: border 1s; /* Safari */
+    -webkit-transition: border 1s; 
     transition: border 1s;
 }
 .logo{
@@ -91,8 +91,9 @@ h1{
 	font-size:15px;
 	font-family: Verdana;
 	font-weight: italic;
+	text-align: center;
 	cursor: pointer;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 }
 .button1{
@@ -100,6 +101,7 @@ h1{
 	border:2px;
 	border-radius: 25px;
 	border-style: outset;
+	text-align: center;
 	border-color:gray;
 	padding: 10px 10px;
 	margin-left: 90px;
@@ -109,18 +111,18 @@ h1{
 	font-family: Verdana;
 	font-weight: italic;
 	cursor: pointer;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 }
 .button1:hover{
 	background-color:maroon;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 	opacity: 0.8;
 }
 #button2:hover{
 	background-color:maroon;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 	opacity: 0.8;
 }
@@ -278,25 +280,25 @@ slide:nth-child(1){
   }
 }
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
   background-color: black;
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.4); 
   padding-top: 5px;
 }
 
-/* Modal Content/Box */
+
 .modal-content {
   background-color: rgba(0,0,0,0.4);
-  margin: 5px auto; /* 15% from the top and centered */
+  margin: 5px auto; 
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
 }
 
 .close {
@@ -369,7 +371,7 @@ slide:nth-child(1){
 }
 .img_footer:hover{
   	background-color:white;
-	-webkit-transition: background-color 5s; /* Safari */
+	-webkit-transition: background-color 5s; 
     transition: background-color 1s;
 }
  
@@ -395,6 +397,8 @@ slide:nth-child(1){
 	background-color: black;
 	position: relative;
 	opacity: 0.8;
+	border-top-style:double;
+	border-color: white;
  }
 
 @media only screen and (min-width: 768px){
@@ -414,13 +418,13 @@ slide:nth-child(1){
 	text-decoration: none;
 	padding: 5px 5px;
 	font-family: "Robotto", sans-serif;
-	font-size:20px;
+	font-size:15px;
 	margin-right: 10px;
 	font-weight: bold;
 	border: 1px solid transparent;
-	-webkit-transition: background-color 1s; /* Safari */
+	-webkit-transition: background-color 1s; 
     transition: background-color 1s;
-    -webkit-transition: border 1s; /* Safari */
+    -webkit-transition: border 1s; 
     transition: border 1s;
 }
 #navbar li.active a{
@@ -430,9 +434,9 @@ slide:nth-child(1){
 	border:1px solid white;
 	background-color: white;
 	color: brown;
-	-webkit-transition: background-color 1s; /* Safari */
+	-webkit-transition: background-color 1s; 
     transition: background-color 1s;
-    -webkit-transition: border 1s; /* Safari */
+    -webkit-transition: border 1s; 
     transition: border 1s;
 }
 .logo{
@@ -483,7 +487,7 @@ h1{
 	font-family: Verdana;
 	font-weight: italic;
 	cursor: pointer;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 }
 .button1{
@@ -500,18 +504,18 @@ h1{
 	font-family: Verdana;
 	font-weight: italic;
 	cursor: pointer;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 }
 .button1:hover{
 	background-color:maroon;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 	opacity: 0.8;
 }
 #button2:hover{
 	background-color:maroon;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 	opacity: 0.8;
 }
@@ -667,25 +671,25 @@ slide:nth-child(1){
   }
 }
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed;
+  z-index: 1; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
   background-color: black;
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.4); 
   padding-top: 5px;
 }
 
-/* Modal Content/Box */
+
 .modal-content {
   background-color: rgba(0,0,0,0.4);
-  margin: 5px auto; /* 15% from the top and centered */
+  margin: 5px auto; 
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
 }
 
 .close {
@@ -758,7 +762,7 @@ slide:nth-child(1){
 }
 .img_footer:hover{
   	background-color:white;
-	-webkit-transition: background-color 5s; /* Safari */
+	-webkit-transition: background-color 5s; 
     transition: background-color 1s;
 }
  
@@ -784,6 +788,8 @@ slide:nth-child(1){
 	background-color: black;
 	position: relative;
 	opacity: 0.8;
+	border-top-style:double;
+	border-color: white;
 	
  }
 
@@ -811,9 +817,9 @@ slide:nth-child(1){
 	margin-right: 30px;
 	font-weight: bold;
 	border: 1px solid transparent;
-	-webkit-transition: background-color 1s; /* Safari */
+	-webkit-transition: background-color 1s; 
     transition: background-color 1s;
-    -webkit-transition: border 1s; /* Safari */
+    -webkit-transition: border 1s; 
     transition: border 1s;
 }
 #navbar li.active a{
@@ -823,9 +829,9 @@ slide:nth-child(1){
 	border:1px solid white;
 	background-color: white;
 	color: brown;
-	-webkit-transition: background-color 1s; /* Safari */
+	-webkit-transition: background-color 1s; 
     transition: background-color 1s;
-    -webkit-transition: border 1s; /* Safari */
+    -webkit-transition: border 1s; 
     transition: border 1s;
 }
 .logo{
@@ -881,7 +887,7 @@ h1{
 	font-weight: italic;
 	cursor: pointer;
 	background-color: rgb(0,0,0,0.4);
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 }
 .button1{
@@ -897,18 +903,18 @@ h1{
 	font-weight: italic;
 	cursor: pointer;
 	background-color: rgb(0,0,0,0.4);
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 }
 .button1:hover{
 	background-color:maroon;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s;
     transition: background-color 2s;
 	opacity: 0.8;
 }
 #button2:hover{
 	background-color:maroon;
-	-webkit-transition: background-color 2s; /* Safari */
+	-webkit-transition: background-color 2s; 
     transition: background-color 2s;
 	opacity: 0.8;
 }
@@ -995,15 +1001,13 @@ slide:nth-child(1){
 #login_txt{
  	color:white;
  	font-size: 30px;
- 	margin-top: 950px;
- 	margin-left: 600px;
- 	border:2px solid black;
- 	border-top: 0px;
- 	border-left: 0px;
- 	border-right: 0px;
+ 	margin-top: 1050px;
+ 	margin-left: 580px;
+ 	margin-right:400px;
  }
  .btn_login{
- 	margin-top: 1250px;
+ 	margin-top: 1350px;
+ 	width: 100%;
  }
  .form{
  	width: auto;
@@ -1067,25 +1071,25 @@ slide:nth-child(1){
   }
 }
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none; 
+  position: fixed; 
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
   background-color: black;
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.4); 
   padding-top: 5px;
 }
 
-/* Modal Content/Box */
+
 .modal-content {
   background-color: rgba(0,0,0,0.4);
-  margin: 5px auto; /* 15% from the top and centered */
+  margin: 5px auto; 
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 80%; 
 }
 
 .close {
@@ -1158,7 +1162,7 @@ slide:nth-child(1){
 }
 .img_footer:hover{
   	background-color:white;
-	-webkit-transition: background-color 5s; /* Safari */
+	-webkit-transition: background-color 5s; 
     transition: background-color 1s;
 }
  
@@ -1184,6 +1188,8 @@ slide:nth-child(1){
 	background-color: black;
 	position: relative;
 	opacity: 0.8;
+	border-top-style:double;
+	border-color: white;
 	
  }
 
